@@ -29,7 +29,7 @@ function App() {
   useEffect(() => getSongs(), [])
 
   const addFaveSong = (song) => {
-    setFaveSong(song)
+    setFaveSong([...faveSong, song])
   }
 
   const handleSubmit = (newSong) => {
