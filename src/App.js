@@ -6,7 +6,7 @@ import Playlist from './Playlist'
 
 function App() {
 
-  const url = 'http://localhost:4000/songs/'
+  const url = 'https://app-tunr-project.herokuapp.com/songs/'
 
   const [playlist, setPlaylist] = useState([]);
 
