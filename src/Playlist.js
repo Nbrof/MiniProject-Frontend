@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Playlist = (props) => {
+const myPlaylist = (props) => {
 
     return (
         <div>
@@ -10,4 +10,4 @@ const Playlist = (props) => {
     )
 }
 
-export default Playlist
+export default myPlaylist
