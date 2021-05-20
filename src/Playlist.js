@@ -9,14 +9,15 @@ const myPlaylist = (props) => {
         <div>
             {playlist.map((song) => (
             <div>
-            <h3>{song.title}</h3>
-            <h3>{song.artist}</h3>
-            <h4>{song.time}</h4>
-             <button
-              onClick={() => 
-                addFaveSong(song)}>
-                &#9825;
-             </button>
+                <h3>{song.title}</h3>
+                <h3>{song.artist}</h3>
+                <h4>{song.time}</h4>
+                <button
+                    onClick={() => 
+                    addFaveSong(song)}
+                >
+                    &#9825;
+                </button>
             </div>
         ))}
         </div>
