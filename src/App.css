@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-size: 120px;
+  height: 70px;
+  margin-right:1380px;
+  color: #19323d;
+  font-weight: 900;
+}
+h3 {
+  font-size: 30px;
+  letter-spacing: 7px;
+  margin-left: 1100px;
+  margin-bottom: 30px;
+  position: relative;
+  bottom: 60px;
+  color: #494d6d;
+}
+.red-line {
+  background-color: #a93f55;
+  height: 10px;
+  width: 90%;
+  position: relative;
+  bottom: 60px;
+}
