@@ -46,6 +46,7 @@ const Form = (props) => {
           value={formData.time}
           onChange={handleChange}
         />
+        <br/>
         <input 
           type='submit'
           value='ADD NEW SONG'
