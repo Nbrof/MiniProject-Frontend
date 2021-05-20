@@ -6,11 +6,11 @@ const Favorite = ({faveSong}) => {
     <div className='favorite'>
       <h2>Favorite Songs List</h2>
       <div className='fave-container'>
-        {faveSong.map((song) => (
+        {faveSong.map((tunr) => (
           <article>
-            <h5>{song.title}</h5>
-            <h5>{song.artist}</h5>
-            <h5>{song.time}</h5>
+            <h5>{tunr.title}</h5>
+            <h5>{tunr.artist}</h5>
+            <h5>{tunr.time}</h5>
           </article>
         ))}
       </div>
