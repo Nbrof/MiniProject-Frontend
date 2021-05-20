@@ -7,7 +7,9 @@ const Form = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    props.handleSubmit(formData)
+    if (formData.title !== "" && formData.artist !== "" && formData.time !== "") {
+      props.handleSubmit(formData)
+    }
     setFormData({
       title: "",
       artist: "",
@@ -46,6 +48,7 @@ const Form = (props) => {
           value={formData.time}
           onChange={handleChange}
         />
+        <br/>
         <input 
           type='submit'
           value='ADD NEW SONG'
